@@ -53,5 +53,22 @@ echo '<hr>';
 // array
 $cars = ['Gol', 'Uno', 'Camaro', 12, 20.6, true];
 var_dump($cars);
+echo '<hr>';
+
+// object
+class Customer 
+{
+
+    public $name;
+    
+    public function setName($n) 
+    {
+        $this->$name = $n;
+    }
+}
+
+$customer = new Customer();
+$customer->setName('Wesley');
+var_dump($customer);
 
 ?>
