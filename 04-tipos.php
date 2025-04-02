@@ -20,9 +20,9 @@ var_dump($age);
 echo '<br>';
 
 if (is_int($age)) {
-    echo 'É uma int!<br>';
+    echo 'É um int!<br>';
 } else {
-    echo 'Não é uma int<br>';
+    echo 'Não é um int<br>';
 }
 
 echo '<hr>';
@@ -31,10 +31,10 @@ echo '<hr>';
 $height = 1.77;
 var_dump($height);
 echo '<br>';
-if (is_int($age)) {
-    echo 'É uma int!<br>';
+if (is_float($age)) {
+    echo 'É um float!<br>';
 } else {
-    echo 'Não é uma int<br>';
+    echo 'Não é um float<br>';
 }
 echo '<hr>';
 
@@ -43,9 +43,9 @@ $adm = false;
 var_dump($adm);
 echo '<br>';
 if (is_bool($adm)) {
-    echo 'É uma boolean!<br>';
+    echo 'É um boolean!<br>';
 } else {
-    echo 'Não é uma boolean<br>';
+    echo 'Não é um boolean<br>';
 }
 echo '<hr>';
 
@@ -58,7 +58,7 @@ echo '<hr>';
 // object
 class Customer 
 {
-
+    
     public $name;
     
     public function setName($n) 
@@ -70,5 +70,19 @@ class Customer
 $customer = new Customer();
 $customer->setName('Wesley');
 var_dump($customer);
+
+if (is_object($adm)) {
+    echo 'É um object!<br>';
+} else {
+    echo 'Não é uma object<br>';
+}
+echo '<hr>';
+
+// Especiais
+// null
+$city = null;
+var_dump($city);
+
+// resource
 
 ?>
