@@ -49,4 +49,9 @@ if (is_bool($adm)) {
 }
 echo '<hr>';
 
+// Compostos
+// array
+$cars = ['Gol', 'Uno', 'Camaro', 12, 20.6, true];
+var_dump($cars);
+
 ?>
