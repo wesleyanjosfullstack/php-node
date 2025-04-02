@@ -10,6 +10,7 @@
         $n = 'Wesley Anjos';
         $a = 28;
         echo '<p>Meu nome é '. $n .' e minha idade é '. $a .' !</p>';
+        print 'Meu primeiro código em PHP';
     ?>
 </body>
 </html>
