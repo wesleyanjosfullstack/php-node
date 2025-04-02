@@ -25,4 +25,28 @@ if (is_int($age)) {
     echo 'Não é uma int<br>';
 }
 
+echo '<hr>';
+
+// float
+$height = 1.77;
+var_dump($height);
+echo '<br>';
+if (is_int($age)) {
+    echo 'É uma int!<br>';
+} else {
+    echo 'Não é uma int<br>';
+}
+echo '<hr>';
+
+// boolean
+$adm = false;
+var_dump($adm);
+echo '<br>';
+if (is_bool($adm)) {
+    echo 'É uma boolean!<br>';
+} else {
+    echo 'Não é uma boolean<br>';
+}
+echo '<hr>';
+
 ?>
